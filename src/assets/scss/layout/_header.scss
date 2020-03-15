@@ -25,21 +25,21 @@
 			@include padding(6em, 5em, (1em, 0, 0, 0));
 
 			h1 {
-				font-size: 4em;
+				font-size: 50px;
 			}
 
 			> * {
-				// @include vendor('transition', 'opacity 1s ease');
-				// @include vendor('transition-delay', '0.5s');
+				@include vendor('transition', 'opacity 0.5s ease');
+				@include vendor('transition-delay', '0.5s');
 				opacity: 1;
 			}
 
 			.logo {
-				// @include vendor('transition', (
-				// 	'opacity 1.25s ease',
-				// 	'transform 0.5s ease'
-				// ));
-				// @include vendor('transition-delay', '0s');
+				@include vendor('transition', (
+					'opacity 0.5s ease',
+					'transform 0.5s ease'
+				));
+				@include vendor('transition-delay', '0s');
 				display: block;
 				border-radius: 100%;
 				margin: 0 0 (_size(element-margin) * 0.75) 0;
@@ -74,8 +74,9 @@
 			@include padding(3em, 2em, (0, 0, -1em, 0));
 
 			p {
-				font-size: 1em;
+				font-size: 0.9em;
 				letter-spacing: 0;
+				padding: 10px 40px 0 40px;
 
 				br {
 					display: none;
@@ -86,7 +87,7 @@
 				@include padding(3em, 2em, (1em, 0, 0, 0));
 
 				h1 {
-					font-size: 2.5em;
+					font-size: 2em;
 				}
 			}
 		}
