@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import pic01 from '../assets/images/pic01.jpg'
+import profile from '../assets/images/profile.png'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -26,7 +26,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="Scott Williams" />
 
         <Header />
 
@@ -37,40 +37,37 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="intro" className="main">
+          <section id="profile" className="main">
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>A little about me</h2>
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                  An insightful, inventive, and curious software developer with a design background and emphasis on quality and creativity. A community organizer, lover of natural history museums, and pursuer of one too many passion projects.
                 </p>
-                <ul className="actions">
+                {/* <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
                       Learn More
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
               <span className="image">
-                <img src={pic01} alt="" />
+                <img src={profile} alt="Portrait of Scott Williams" />
               </span>
             </div>
           </section>
 
-          <section id="first" className="main special">
+          <section id="experience" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Experience & Skills</h2>
             </header>
             <ul className="features">
               <li>
                 <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
+                <h3>Programming</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
                   consequat tempus veroeros sed consequat.
@@ -78,7 +75,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
+                <h3>Process</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
                   consequat tempus veroeros sed consequat.
@@ -86,7 +83,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
+                <h3>User Experience</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
                   consequat tempus veroeros sed consequat.
@@ -96,7 +93,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
+                  <Link to="/experience" className="button">
                     Learn More
                   </Link>
                 </li>
@@ -104,9 +101,9 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="second" className="main special">
+          <section id="community" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
+              <h2>Community Involvement</h2>
               <p>
                 Donec imperdiet consequat consequat. Suspendisse feugiat congue
                 <br />
@@ -116,15 +113,15 @@ class Index extends React.Component {
             <ul className="statistics">
               <li className="style1">
                 <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
+                <strong>5,120</strong> Hackathons
               </li>
               <li className="style2">
                 <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
+                <strong>8,192</strong> Pro Bono
               </li>
               <li className="style3">
                 <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
+                <strong>2,048</strong> Boards
               </li>
               <li className="style4">
                 <span className="icon fa-laptop"></span>
@@ -158,7 +155,40 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="cta" className="main special">
+          <section id="education" className="main special">
+            <header className="major">
+              <h2>Education</h2>
+            </header>
+            <ul className="features">
+              <li>
+                <span className="icon major style1 fa-code"></span>
+                <h3>Programming</h3>
+                <p>
+                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+                  consequat tempus veroeros sed consequat.
+                </p>
+              </li>
+              <li>
+                <span className="icon major style5 fa-diamond"></span>
+                <h3>Design</h3>
+                <p>
+                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+                  consequat tempus veroeros sed consequat.
+                </p>
+              </li>
+            </ul>
+            <footer className="major">
+              <ul className="actions">
+                <li>
+                  <Link to="/generic" className="button">
+                    Learn More
+                  </Link>
+                </li>
+              </ul>
+            </footer>
+          </section>
+
+          <section id="contact" className="main special">
             <header className="major">
               <h2>Congue imperdiet</h2>
               <p>

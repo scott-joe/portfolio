@@ -1,0 +1,165 @@
+///
+/// Stellar by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Header */
+
+	.employer {
+		margin-bottom: 60px;
+
+		.name {
+			display: inline-block;
+			margin-bottom: 25px;
+			
+			img {
+				max-height: 62px;
+    		max-width: 70px;
+				margin-right: 14px;
+				float: left;
+			}
+			
+			h2 {
+				margin-bottom: 0;
+				line-height: 1em;
+				font-weight: bold;
+			}
+
+			h3 {
+				color: #8D8D8D !important;
+				font-weight: lighter;
+				margin-bottom: 0;
+				font-size: 20px;
+			}
+		}
+
+		.details {
+			display: inline-block;
+			text-align: right;
+			
+			h4 {
+				margin: 0px;
+				color: #707070 !important;
+				font-size: 16px;
+
+				.arrow {
+					display: inline-block;
+					padding: 0px 5px;
+					color: #b5b5b5;
+				}
+			}
+		}
+
+		&.alt {
+			// @include padding(6em, 5em, (1em, 0, 0, 0));
+
+			// h1 {
+			// 	font-size: 4em;
+			// }
+
+			// > * {
+			// 	@include vendor('transition', 'opacity 3s ease');
+			// 	@include vendor('transition-delay', '0.5s');
+			// 	opacity: 1;
+			// }
+
+			// .logo {
+			// 	@include vendor('transition', (
+			// 		'opacity 1.25s ease',
+			// 		'transform 0.5s ease'
+			// 	));
+			// 	@include vendor('transition-delay', '0s');
+			// 	display: block;
+			// 	border-radius: 3px;
+			// 	margin: 0 0 (_size(element-margin) * 0.75) 0;
+
+			// 	img {
+			// 		display: block;
+			// 		margin: 0 auto;
+			// 		border-radius: 3px;
+			// 		border: 2px solid #a9abb1;
+			// 		max-width: 20px;
+			// 	}
+			// }
+		}
+
+		@include breakpoint(large) {
+		// 	@include padding(4em, 4em, (0, 0, -2em, 0));
+			.name,
+			.details {
+				width: 50%;
+			}
+
+		// 	&.alt {
+		// 		@include padding(5em, 4em, (1em, 0, 0, 0));
+		// 	}
+		}
+
+		@include breakpoint(medium) {
+		// 	@include padding(4em, 3em, (0, 0, -2em, 0));
+
+		// 	&.alt {
+		// 		@include padding(4em, 3em, (1em, 0, 0, 0));
+		// 	}
+		}
+
+		@include breakpoint(small) {
+		// 	@include padding(3em, 2em, (0, 0, -1em, 0));
+			.name,
+			.details {
+				width: 100%;
+			}
+
+			.name {
+				margin-bottom: 5px;
+			}
+
+			.details {
+				h4 {
+					display: inline-block;
+					padding: 0 15px;
+					width: 30%;
+					font-size: 14px;
+				}
+
+				h4:first-child {
+					text-align: left;
+					width: 70%;
+				}
+			}
+
+		// 	p {
+		// 		font-size: 1em;
+		// 		letter-spacing: 0;
+
+		// 		br {
+		// 			display: none;
+		// 		}
+		// 	}
+
+		// 	&.alt {
+		// 		@include padding(3em, 2em, (1em, 0, 0, 0));
+
+		// 		h1 {
+		// 			font-size: 2.5em;
+		// 		}
+		// 	}
+		}
+
+		@include breakpoint(xsmall) {
+		// 	@include padding(3em, 1.5em, (0, 0, -1em, 0));
+
+		// 	&.alt {
+		// 		@include padding(3em, 1.5em, (1em, 0, 0, 0));
+		// 	}
+		// }
+
+		// @include breakpoint(xxsmall) {
+		// 	@include padding(2.5em, 1em, (0, 0, -1em, 0));
+
+		// 	&.alt {
+		// 		@include padding(2.5em, 1em, (1em, 0, 0, 0));
+		// 	}
+		}
+	}

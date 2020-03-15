@@ -11,7 +11,8 @@
 		text-align: center;
 
 		h1 {
-			margin: 0 0 (_size(element-margin) * 0.125) 0;
+			// margin: 0 0 (_size(element-margin) * 0.125) 0;
+			margin: 0;
 		}
 
 		p {
@@ -23,7 +24,7 @@
 			@include padding(6em, 5em, (1em, 0, 0, 0));
 
 			h1 {
-				font-size: 3.25em;
+				font-size: 4em;
 			}
 
 			> * {
@@ -39,12 +40,15 @@
 				));
 				@include vendor('transition-delay', '0s');
 				display: block;
+				border-radius: 100%;
 				margin: 0 0 (_size(element-margin) * 0.75) 0;
 
 				img {
 					display: block;
 					margin: 0 auto;
-					max-width: 75%;
+					border-radius: 100%;
+					border: 2px solid #a9abb1;
+					max-width: 10%;
 				}
 			}
 		}
