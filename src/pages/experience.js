@@ -21,7 +21,7 @@ class Generic extends React.Component {
         <Helmet title="Generic Page Title" />
         <HeaderSub
           title="Experience & Skills"
-          desc="Subtitle"
+          desc="From designer to developer to something in between"
         />
         <div id="main">
           <section id="content" className="main">
@@ -105,7 +105,7 @@ class Generic extends React.Component {
 
             <Job
               logo={MuseumLogo}
-              employer="The Children's Museum of Indianapolis"
+              employer="Children's Museum of Indianapolis"
               title="Exhibit Graphic Design Intern"
               start="May, 2007"
               end="July, 2007"

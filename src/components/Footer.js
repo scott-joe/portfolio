@@ -41,22 +41,32 @@ const Footer = props => (
         </li>
         <li>
           <a
-            href="https://www.instagram.com/scott_joe_pro/"
-            className="icon fa-instagram alt"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="label">Instagram</span>
-          </a>
-        </li>
-        <li>
-          <a
             href="https://github.com/scott-joe"
             className="icon fa-github alt"
             target="_blank"
             rel="noopener noreferrer"
           >
             <span className="label">GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/last_known_word"
+            className="icon fa-twitter alt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="label">Twitter</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/scott_joe_pro/"
+            className="icon fa-instagram alt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="label">Instagram</span>
           </a>
         </li>
         {/* <li>

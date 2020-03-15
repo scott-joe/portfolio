@@ -54,6 +54,7 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
+		line-height: 1.5em;
 
 		&.content {
 			-moz-columns: 20em 2;
@@ -70,9 +71,9 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: _font(weight);
-		line-height: 1.5;
 		margin: 0 0 (_size(element-margin) * 0.35) 0;
 		letter-spacing: _font(letter-spacing);
+		line-height: 1.5em;
 
 		a {
 			color: inherit;
@@ -81,6 +82,7 @@
 	}
 
 	h1 {
+		font-family: _font(family-display);
 		font-size: 2.5em;
 		line-height: 1.2;
 	}
