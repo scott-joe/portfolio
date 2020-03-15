@@ -27,9 +27,10 @@ class Index extends React.Component {
     return (
       <Layout>
         <Helmet title="Scott Williams" />
-
-        <Header />
-
+        <Header
+          title="Scott Williams"
+          desc="Software Engineer and Community Organizer"
+        />
         <Waypoint
           onEnter={this._handleWaypointEnter}
           onLeave={this._handleWaypointLeave}

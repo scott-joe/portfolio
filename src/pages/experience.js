@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import HeaderSub from '../components/HeaderSub'
+import Header from '../components/Header'
 import Job from '../components/Job'
 import Role from '../components/Role'
 
@@ -19,7 +19,7 @@ class Generic extends React.Component {
     return (
       <Layout>
         <Helmet title="Generic Page Title" />
-        <HeaderSub
+        <Header
           title="Experience & Skills"
           desc="From designer to developer to something in between"
         />
