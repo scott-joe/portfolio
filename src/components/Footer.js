@@ -3,14 +3,14 @@ import React from 'react'
 
 const Footer = props => (
   <footer id="footer">
-    <section>
+    <section id="contact">
       <h2>Contact</h2>
       <p>
         Something nice to discuss why someone would want to talk to me. Like a reverse cover letter.
       </p>
       {/* <ul className="actions">
         <li>
-          <Link to="/generic" className="button">
+          <Link to="index" className="button">
             Learn More
           </Link>
         </li>

@@ -30,6 +30,7 @@ class Index extends React.Component {
         <Header
           title="Scott Williams"
           desc="Software Engineer and Community Organizer"
+          homepage={true}
         />
         <Waypoint
           onEnter={this._handleWaypointEnter}
@@ -47,13 +48,13 @@ class Index extends React.Component {
                 <p>
                   An insightful, inventive, and curious software developer with a design background and emphasis on quality and creativity. A community organizer, lover of natural history museums, and pursuer of one too many passion projects.
                 </p>
-                {/* <ul className="actions">
+                <ul className="actions">
                   <li>
-                    <Link to="/generic" className="button">
-                      Learn More
+                    <Link to="index" className="button special">
+                      Download Resumé
                     </Link>
                   </li>
-                </ul> */}
+                </ul>
               </div>
               <span className="image">
                 <img src={profile} alt="Portrait of Scott Williams" />
@@ -95,7 +96,12 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <Link to="/experience" className="button">
-                    Learn More
+                    Employment
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/experience" className="button">
+                    Recommendations
                   </Link>
                 </li>
               </ul>
@@ -148,7 +154,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
+                  <Link to="index" className="button">
                     Learn More
                   </Link>
                 </li>
@@ -181,7 +187,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
+                  <Link to="index" className="button">
                     Learn More
                   </Link>
                 </li>
@@ -189,24 +195,40 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="contact" className="main special">
+          <section id="hobbies" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
+              <h2>Hobbies</h2>
             </header>
+            <ul className="features">
+              <li>
+                <span className="icon major style1 fa-code"></span>
+                <h3>3D Printing</h3>
+                <p>
+                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+                  consequat tempus veroeros sed consequat.
+                </p>
+              </li>
+              <li>
+                <span className="icon major style3 fa-copy"></span>
+                <h3>DIY Electronics</h3>
+                <p>
+                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+                  consequat tempus veroeros sed consequat.
+                </p>
+              </li>
+              <li>
+                <span className="icon major style5 fa-diamond"></span>
+                <h3>Photography</h3>
+                <p>
+                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+                  consequat tempus veroeros sed consequat.
+                </p>
+              </li>
+            </ul>
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button special">
-                    Get Started
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/generic" className="button">
+                  <Link to="/experience" className="button">
                     Learn More
                   </Link>
                 </li>
