@@ -9,6 +9,7 @@
 		margin-left: 15px;
 
 		h2 {
+			display: inline-block;
 			font-size: 20px;
 			font-weight: bold;
 			margin-bottom: 5px;
@@ -19,10 +20,13 @@
 		}
 
 		.tags {
-			font-size: small;
+			display: inline-block;
+			font-size: 10px;
+			font-weight: lighter;
 			color: #8e8e8e;
-			margin-top: 0px;
-			margin-bottom: 30px;
+			margin-left: 15px;
+			// margin-top: 0px;
+			// margin-bottom: 30px;
 
 			.tag {
 				padding: 3px 6px;

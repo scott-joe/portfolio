@@ -7,9 +7,11 @@ const Role = (props) => {
 
     return (
         <div className="role">
-            <h2>{props.name}</h2>
+            <h2>
+                {props.name}
+                <div className="tags">{tags}</div>
+            </h2>
             {props.children}
-            <div className="tags">{tags}</div>
         </div>
     )
 }
