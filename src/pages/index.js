@@ -42,11 +42,14 @@ class Index extends React.Component {
           <section id="profile" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
+                {/* <header className="major">
                   <h2>A little about me</h2>
-                </header>
+                </header> */}
                 <p>
                   An insightful, inventive, and curious software developer with a design background and emphasis on quality and creativity. A community organizer, lover of natural history museums, and pursuer of one too many passion projects.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <ul className="actions">
                   <li>
@@ -71,24 +74,21 @@ class Index extends React.Component {
                 <span className="icon major style1 fa-code"></span>
                 <h3>Programming</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Working in frontend, but a diverse backround.
                 </p>
               </li>
               <li>
                 <span className="icon major style3 fa-copy"></span>
                 <h3>Process</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Salesforce trained ScrumMaster, decade long remote employee.
                 </p>
               </li>
               <li>
                 <span className="icon major style5 fa-diamond"></span>
                 <h3>User Experience</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Leverages design experience to work designers and build designs when necessary.
                 </p>
               </li>
             </ul>
@@ -201,7 +201,7 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
+                <span className="icon major style1 fa-flask"></span>
                 <h3>3D Printing</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
@@ -209,7 +209,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
+                <span className="icon major style3 fa-microchip"></span>
                 <h3>DIY Electronics</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
@@ -217,7 +217,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+                <span className="icon major style5 fa-camera"></span>
                 <h3>Photography</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat

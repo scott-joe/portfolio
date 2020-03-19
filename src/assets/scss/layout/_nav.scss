@@ -18,7 +18,7 @@
 		width: _size(inner);
 		max-width: calc(100% - #{_size(element-margin) * 2});
 		padding: 1em;
-		background-color: _palette(invert, bg-alt);
+		background-color: transparentize(_palette(invert, bg-alt), 0.05);
 		border-top-left-radius: _size(border-radius-main);
 		border-top-right-radius: _size(border-radius-main);
 		cursor: default;
@@ -55,7 +55,7 @@
 					box-shadow: inset 0 0 0 1px transparent;
 
 					&:hover {
-						background-color: _palette(invert, border-bg);
+						background-color: _palette(invert, bg);
 					}
 
 					// &.active {
