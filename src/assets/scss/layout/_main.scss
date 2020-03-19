@@ -33,6 +33,28 @@
 					border-bottom-left-radius: 0;
 				}
 			}
+
+			.back {
+				position: relative;
+    		font-size: 20px;
+
+				a {
+					position: absolute;
+					top: -50px;
+					left: 5px;
+					width: 3em;
+					color: #bbb;
+					 
+					.label {
+						display: inline-block;
+						font-size: 15px;
+						padding-left: 4px;
+						position: relative;
+						top: -2px;
+						font-weight: bold;
+					}
+				}
+			}
 		}
 
 		@include breakpoint(large) {
@@ -40,7 +62,7 @@
 				@include padding(4em, 4em);
 
 				> .image.main:first-child {
-					margin: -4em 0 4em -4em;
+					margin: -4em 0 5em -4em;
 					width: calc(100% + 8em);
 				}
 			}
@@ -73,7 +95,8 @@
 				@include padding(3em, 1.5em);
 
 				> .image.main:first-child {
-					margin: -3em 0 1.5em -1.5em;
+					// margin: -3em 0 1.5em -1.5em;
+					margin: -3em 0 4.5em -1.5em;
 					width: calc(100% + 3em);
 				}
 			}

@@ -18,14 +18,24 @@ class Generic extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Generic Page Title" />
+        <Helmet title="Scott Williams - Experience & Skills" />
         <Header
           title="Experience & Skills"
           desc="From designer to developer to something in between"
+          homepage={false}
         />
         <div id="main">
           <section id="content" className="main">
             <span className="image main"><img src={work} alt="" /></span>
+
+            <span className="back">
+              <a
+                href="/"
+                className="icon fa-chevron-circle-left"
+              >
+                <span className="label">BACK</span>
+              </a>
+            </span>
 
             <Job
               logo={FusionAllianceLogo}

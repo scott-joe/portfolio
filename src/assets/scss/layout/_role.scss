@@ -4,7 +4,7 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
-/* Header */
+/* Role */
 	.role {
 		margin-left: 15px;
 
@@ -25,8 +25,6 @@
 			font-weight: lighter;
 			color: #8e8e8e;
 			margin-left: 15px;
-			// margin-top: 0px;
-			// margin-bottom: 30px;
 
 			.tag {
 				padding: 3px 6px;
@@ -35,62 +33,23 @@
 				border-radius: 3px;
 			}
 		}
-
-		&.alt {}
 	}
 
-		@include breakpoint(large) {
-			// @include padding(4em, 4em, (0, 0, -2em, 0));
+		@include breakpoint(large) {}
 
-			&.alt {
-				// @include padding(5em, 4em, (1em, 0, 0, 0));
-			}
-		}
-
-		@include breakpoint(medium) {
-			// @include padding(4em, 3em, (0, 0, -2em, 0));
-
-			&.alt {
-				// @include padding(4em, 3em, (1em, 0, 0, 0));
-			}
-		}
+		@include breakpoint(medium) {}
 
 		@include breakpoint(small) {
-			// @include padding(3em, 2em, (0, 0, -1em, 0));
 			.role {
 				margin-top: 20px;
-			}
-
-			// p {
-			// 	font-size: 1em;
-			// 	letter-spacing: 0;
-
-			// 	br {
-			// 		display: none;
-			// 	}
-			// }
-
-			&.alt {
-				// @include padding(3em, 2em, (1em, 0, 0, 0));
-
-				// h1 {
-				// 	font-size: 2.5em;
-				// }
+			
+				.tags {
+					display: block;
+					margin-left: 0px;
+				}
 			}
 		}
 
-		@include breakpoint(xsmall) {
-			// @include padding(3em, 1.5em, (0, 0, -1em, 0));
+		@include breakpoint(xsmall) {}
 
-			&.alt {
-				// @include padding(3em, 1.5em, (1em, 0, 0, 0));
-			}
-		}
-
-		@include breakpoint(xxsmall) {
-			// @include padding(2.5em, 1em, (0, 0, -1em, 0));
-
-			&.alt {
-				// @include padding(2.5em, 1em, (1em, 0, 0, 0));
-			}
-		}
+		@include breakpoint(xxsmall) {}
